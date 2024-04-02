@@ -10,11 +10,18 @@ private:
 	int position;
 
 public:
-	bool busy;
-	float timequeue = 0;
-	float timetaken = 0;
+	int timearrived = 0;
+	int timequeue = 0;
+	int timeserved = 0;
+	int timetaken = 0;
+
+	Client(int &timearrived) :timearrived(timearrived) {};
 
 	void arrive(std::queue<Client> &clientqueue);
 
-	void served();
+	void doneWaiting(int& time);
+
+	void beingServed();
+
+	void served(int& time);
 };

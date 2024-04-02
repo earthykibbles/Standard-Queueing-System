@@ -32,7 +32,7 @@ int main()
 		int value = poisson_dist(gen);
 
 		for (int i = 0; i < value; i++) {
-			Client client;
+			Client client(systime);
 			client.arrive(clientqueue);
 		}
 
@@ -42,7 +42,13 @@ int main()
 					server.serve();
 				}
 				else {
-					server.callNext(clientqueue);
+
+					// Requires fix, this should only run on the second task of callNext
+
+					/*if (clientqueue.size() > 3) {
+						server.wrapTask(systime);
+					}*/
+					server.callNext(clientqueue, systime);
 				}
 			}
 		}
