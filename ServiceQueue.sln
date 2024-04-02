@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServiceQueue", "ServiceQueue.vcxproj", "{D90ACD23-D2CE-4625-8F52-8CF41C39484A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D90ACD23-D2CE-4625-8F52-8CF41C39484A}.Debug|x64.ActiveCfg = Debug|x64
+		{D90ACD23-D2CE-4625-8F52-8CF41C39484A}.Debug|x64.Build.0 = Debug|x64
+		{D90ACD23-D2CE-4625-8F52-8CF41C39484A}.Debug|x86.ActiveCfg = Debug|Win32
+		{D90ACD23-D2CE-4625-8F52-8CF41C39484A}.Debug|x86.Build.0 = Debug|Win32
+		{D90ACD23-D2CE-4625-8F52-8CF41C39484A}.Release|x64.ActiveCfg = Release|x64
+		{D90ACD23-D2CE-4625-8F52-8CF41C39484A}.Release|x64.Build.0 = Release|x64
+		{D90ACD23-D2CE-4625-8F52-8CF41C39484A}.Release|x86.ActiveCfg = Release|Win32
+		{D90ACD23-D2CE-4625-8F52-8CF41C39484A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C9DBF91-02F2-414F-B8C4-27B974C2A885}
+	EndGlobalSection
+EndGlobal
