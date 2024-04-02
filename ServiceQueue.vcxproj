@@ -130,7 +130,7 @@
     <ClCompile Include="client\client.cpp" />
     <ClCompile Include="misc\stats.h" />
     <ClCompile Include="server\server.cpp" />
-    <ClCompile Include="servicequeue.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="client\client.h" />
