@@ -137,6 +137,9 @@
     <ClInclude Include="misc\gnuplot.h" />
     <ClInclude Include="server\server.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
